@@ -18,8 +18,22 @@ Manifest.xml
 
 I run the Html5 audio player on a hfs file server that needs a user name and password.
 recommend setting up a user just for the app in hfs file server (I use a user named phone)
-add the user name and password into the code 
+add the user name and password into the MainActivity.java
+the ip information needs to also be added to this file before you compile 
+the code in android studio. 
+    
+    
+    
+    
+    webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
+        webview.loadUrl("http://ipforyourserver:port/musicfolder");
+        webview.setWebViewClient(new WebViewClient () {
 
+            public void onReceivedHttpAuthRequest(WebView view,
+                                                  android.webkit.HttpAuthHandler handler, String host, String realm) {
+
+                handler.proceed("username", "password");
+            }
 
 
 
