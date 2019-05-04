@@ -5,9 +5,7 @@
 
 
 
-You will need to host the html5 audio player. 
-open Android studio and insert the code provided.
-
+open Android studio and replace the existing files:
 
 activity_main.xml
 
@@ -15,9 +13,12 @@ MainActivity.JavaAndroid
 
 Manifest.xml
 
+With the ones provided. 
+
+setup:
 
 I run the Html5 audio player on a hfs file server that needs a user name and password.
-recommend setting up a user just for the app in hfs file server (I use a user named phone)
+I recommend setting up a user just for the app in hfs file server (I use a user named phone)
 add the user name and password into the MainActivity.java
 the ip information needs to also be added to this file before you compile 
 the code in android studio. 
