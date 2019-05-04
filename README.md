@@ -5,11 +5,23 @@
 
 
 
-You will need to host the html5 audio player 
+You will need to host the html5 audio player. 
 open Android studio and insert the code provided.
-I run mine on a hfs file server that needs a user name and password
-I would reccoment setting up a user just for the app in hfs file server (I use a user named phone)
+
+
+activity_main.xml
+
+MainActivity.JavaAndroid
+
+Manifest.xml
+
+
+I run the Html5 audio player on a hfs file server that needs a user name and password.
+recommend setting up a user just for the app in hfs file server (I use a user named phone)
 add the user name and password into the code 
+
+
+
 
 
 
