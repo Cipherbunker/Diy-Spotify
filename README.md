@@ -4,6 +4,15 @@
 ![Musicplayer](Musicplayer.jpg)
 
 
+
+You will need to host the html5 audio player 
+open Android studio and insert the code provided.
+I run mine on a hfs file server that needs a user name and password
+I would reccoment setting up a user just for the app in hfs file server (I use a user named phone)
+add the user name and password into the code 
+
+
+
 ## 1. introduce
 html5 audio player(with playlist) using flexbox, svg, css animations and  js api.
 
